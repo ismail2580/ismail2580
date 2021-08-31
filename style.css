@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding:0;
+}
+@font-face {
+    font-family:Avenir;
+    src: url(avenir_ff/AvenirLTStd-Roman.otf);
+}
+*{
+    margin: 0;
+    padding:0;
+}
+.navbar img{
+    width: 141.23px;
+    margin-right:200px ;
+}
+.navbar ul li a {
+    color:#292930;
+}
+
+.collapse ul li a:hover{
+    color:#41A12C;
+    border-bottom: 2px solid#41A12C;
+
+}
+.nav-item li.active a {
+    color: #41A12C;
+    border-bottom:2px solid #41A12C;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav
+.nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light 
+.navbar-nav .show>.nav-link {
+    color:#41A12C
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#41A12C;
+}
+.Banner {
+    height: 80vh;
+    background-image:url(images/Banner.png);
+    background-size:cover;
+    /*background-position:relative;*/
+
+}
+.text h1{
+    margin-top:180px;
+    font-size:64px;
+    font-weight:bolder;
+    text-transform: uppercase;
+    /*line-height: 70px;*/
+    align-items: center;
+    background: no;
+}
+.text h1 span{
+    color: #41A12C;
+}
+.background{
+    background-image:url(images/Bg-About.png);
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+
+}
+.row{
+    align-items: center;
+}
+.about-read {
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+.about-read h1{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #41A12C;
+}
+.about-read p{
+  color: #292930;
+ font-size: 18px;
+ line-height: 30px;
+}
+.about-read a{
+    border: 1px solid #41A12C;
+    background-color: #fff;
+    color: #41A12C;
+    text-decoration: none;
+    padding: 15px 38px;
+    border-radius:5px; 
+}
+.about-read a:hover{
+    background-color:#41A12C;
+    color: #fff;
+    border-radius: 5px;
+}
+ .card{
+    align-items: center;
+    text-align: center;
+    border:0px;
+    border-radius:10px;
+}
+
+.card a{
+    text-decoration: none;
+    color: #41A12C;
+    width: 100% !important;
+    padding: 35px;
+    border-radius:10px;
+}
+
+.card a:hover{
+    color: #fff;
+    background-color: #41A12C;
+}
+
+.card h5{
+    font-size:36x;
+    font-weight:900;
+    text-align: center;
+}
+.card p{
+    font-weight: 900;
+    font-size: 15px;
+} 
+.green-food-work{
+    padding-top: 99px;
+    padding-bottom: 159px;
+    background-size: cover;
+    background-image:url(images/BG-About-us.png);
+    text-align: center;
+} 
+.title h1{
+    font-weight: 900;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #41A12C;
+    padding: 50px;
+}
+.title p{
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+}
+.title a{
+    color:#41A12C;
+}
+.mobile img{
+    width: 490px;
+    margin-left: -15px;
+}
+.mobile-app {
+    align-items: center;
+    text-align: center;
+}
+.mobile-app h1{
+    font-weight: 900;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #41A12C;
+    margin-bottom: 30px;
+}
+.mobile-app p{
+    color: #292930;
+}
+.mobile-app img{
+    width: 170px;
+    
+}
+.icon{
+    background-color: #41A12C;
+    margin: 17px;
+    margin-top:-110px;
+    padding: 30px;
+    width:250px;
+    height:200px
+}
+.icon img {
+    width: 80px;
+}
+.icon p {
+    color: #fff;
+}
+.tri {
+    width: 59px; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    margin-top: -6px;
+    margin-right: -310px;
+    border-left: 20px solid #41A12C;
+}
+.Join-us{
+    background-color: #FCFFF5;
+    height: 40vh;
+    
+}
+.Join{
+    background-image: url(images/Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1145px;
+    height: 397px;
+    text-align: center;
+    background-position:;
+    
+}
+.Join h1{
+    color: #41A12C;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+}
+.Join p{
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    color: #292930;
+}
+.Joinus{
+    padding: 10px 40px;
+    font-weight: 900;
+    font-size: 18px;
+}
